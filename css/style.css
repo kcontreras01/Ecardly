@@ -1,0 +1,41 @@
+/* You can include normalize this way */
+@import "normalize.min.css";
+
+body {
+  background: url("../images/background.jpg");
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1 span {
+  display: none;
+}
+
+#main {
+  width: 1100px;
+  margin: 0 auto 20px auto;
+}
+
+#articles {
+  vertical-align: top;
+  display: inline-block;
+  background-color: white;
+  padding: 20px;
+  width: 760px;
+}
+
+#sidebar {
+  vertical-align: top;
+  display: inline-block;
+  background-color: white;
+  width: 220px;
+  padding: 20px; 
+  margin-left: 20px;
+}
+
+#footer {
+  text-align: center;
+}
